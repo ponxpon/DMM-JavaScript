@@ -3,3 +3,8 @@
   height: 200px;
   width: 200px;
 }
+
+/* マウスオーバー時に適用 */
+.box1-ext {
+  border: 10px solid black;
+}
