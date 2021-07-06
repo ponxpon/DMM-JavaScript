@@ -1,6 +1,6 @@
 $(function (){
-  // マウスオーバーイベント
-  $('.box1').mouseover(function (){
+  // マウスクリックイベント
+  $('.box1').on('click', function (){
     // addClassは対象のHTML要素にclass属性を追加
     $('.box1').addClass('box1-ext');
   });
